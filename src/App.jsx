@@ -5,11 +5,11 @@ import { getApiConfiguration, getGenres } from "./store/homeSlice"
 import { fetchDataFromAPI } from "./utils/api"
 import Home from "./pages/home/home"
 import Details from "./pages/details/details"
-import PageNotFound from "./pages/searchResult/searchResult"
 import Explore from "./pages/explore/explore"
 import Header from "./components/header/header"
 import Footer from "./components/footer/footer"
 import SearchResult from "./pages/searchResult/searchResult"
+import PageNotFound from "./pages/404/PageNotFound"
 
 function App() {
   const dispatch = useDispatch();
